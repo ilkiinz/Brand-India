@@ -1,0 +1,20 @@
+.container{
+  box-sizing: border-box;
+  margin-left: 120px;
+  margin-top: 40px;
+}
+
+.navbar{
+  display: flex;
+  flex-direction: row;
+}
+
+.link{
+  color: #0B0B0B;
+font-family: liEucd Circular B;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+margin-right: 30px;
+}
