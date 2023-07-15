@@ -29,6 +29,16 @@ function Footer() {
 
             </div>
 
+            <div className="main-footer-right">
+                <img src={logo2} alt="logo" />
+                <p className="subscribe">Subscribe to our Newsletter</p>
+
+                <div className="input-container">
+                    <input type="text" placeholder="Enter Your Email" />
+                    <button>Subscribe</button>
+                </div>
+
+            </div>
 
     
         </div>

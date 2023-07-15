@@ -1,57 +1,102 @@
-.footer{
+.footer {
     box-sizing: border-box;
     background-color: black;
+    display: flex;
     width: 100%px;
-height: 389px;
-flex-shrink: 0;
-padding-left: 120px;
-padding-top: 50px;
+    height: 389px;
+    flex-shrink: 0;
+    padding-left: 120px;
+    padding-top: 50px;
 }
 
-.first-word{
+.first-word {
     color: #FFF;
-font-size: 18px;
-font-style: normal;
-font-weight: 600;
-line-height: 150%; /* 27px */
-text-transform: capitalize;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+    /* 27px */
+    text-transform: capitalize;
 }
 
-p{
+p {
     color: grey;
-font-family: Euclid Circular B;
-font-size: 11px;
-font-style: normal;
-line-height: 24px;
+    font-family: Euclid Circular B;
+    font-size: 11px;
+    font-style: normal;
+    line-height: 24px;
 }
 
-.footer-block1{
-    float:left;
-				width:100px;
-				height:150px;
-                margin-right: 90px;
+.footer-block1 {
+    float: left;
+    width: 100px;
+    height: 150px;
+    margin-right: 90px;
 }
 
-.footer-block2{
-    float:left;
-				width:100px;
-				height:150px;
-                margin-left: 65px;
+.footer-block2 {
+    float: left;
+    width: 100px;
+    height: 150px;
+    margin-left: 65px;
 }
 
-.footer-block3{
-    width:200px;
-				height:50px;
+.footer-block3 {
+    width: 200px;
+    height: 50px;
 }
 
-.about-brand{
+.about-brand {
     width: 301.158px;
-    color:white;
-font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-font-size: 18px;
-font-style: normal;
-font-weight: 60;
-line-height:  27px;
-text-transform: capitalize;
-padding-top: 237px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 60;
+    line-height: 27px;
+    text-transform: capitalize;
+    padding-top: 237px;
 }
+
+.main-footer-right {
+    margin-left: 265px;
+}
+
+.subscribe {
+    margin-top: 40px;
+    color: #FFF;
+    font-family: Euclid Circular B;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+    /* 27px */
+}
+
+input {
+    position: relative;
+    border-radius: 16px;
+    background: #313131;
+    width: 319px;
+    height: 56px;
+    flex-shrink: 0;
+}
+
+.input-container button {
+    display: inline-flex;
+    position: absolute;
+    padding: 16px 40px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 16px;
+    background: white;
+    top: 0;
+    right: 0;
+    height: 100%;
+}
+
+.input-container {
+    position: relative;
+    margin-top: 48px;
+}
+
