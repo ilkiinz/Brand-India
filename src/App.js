@@ -3,15 +3,23 @@ import './App.css';
 import { Route, Routes } from 'react-router-dom';
 import About from './About';
 import  Nav  from "./Nav";
-import Footer from "./Footer"
-import vector from "./assets/Vector.svg"
-import orange from "./assets/orange.svg"
-import india from "./assets/india.svg"
+import Footer from "./Footer";
+import vector from "./assets/Vector.svg";
+import orange from "./assets/orange.svg";
+import india from "./assets/india.svg";
+import dropbox from "./assets/dropbox_blue 1.svg";
+import github from "./assets/GitHub.svg";
+import google from "./assets/Google.svg";
+import hubspot from "./assets/HubSpot.svg";
+import slack from "./assets/Slack.svg";
+import stripe from "./assets/Stripe.svg";
+import director from "./assets/Director.svg";
+import comma from "./assets/doublecomma.svg";
 function App() {
   return (
     <div className='container'>
       <Nav />
-  
+
       <div className='flag-block'>
 
         <div className='get-touch'>
@@ -47,25 +55,47 @@ function App() {
       </div>
 
 
-        <div className='community-container'>
+      <div className='community-container'>
 
-          <div className='community-block'>
+        <div className='community-block'>
 
-         <div className='community-text'>
-          <p className='meet-com'>Meet our fantastic community of loyal fans</p>
-          <p className='customers'>Don’t just take our word for it. See what our
-customers have to say.</p>
-         </div>
+          <div className='community-text'>
+            <p className='meet-com'>Meet our fantastic community of loyal fans</p>
+            <p className='customers'>Don’t just take our word for it. See what our
+              customers have to say.</p>
+          </div>
 
-        <div className='frame'>
-        
-        </div>
+          <div className='frame'>
+            <img src={dropbox} alt='logo' />
+            <img src={github} alt='logo' />
+            <img src={google} alt='logo' />
+            <img src={hubspot} alt='logo' />
+            <img src={slack} alt='logo' />
+            <img src={stripe} alt='logo' />
+          </div>
 
+          <div className='story-view'>
+
+            <div className='view-text'>
+              <p>View customer stories</p>
             </div>
-
+            <div className='view-btn'>
+              <button>Be Partner</button>
+            </div>
+          </div>
         </div>
 
+      </div>
+      
+      <div className='director-container'>
+        <div className='director-block'>
+       <img src={director} alt='director'/>
+        </div>
 
+        <div className='direc-info'>
+        <img src={comma} alt='comma'/>
+        </div>
+      </div>
 
 
 
@@ -74,8 +104,8 @@ customers have to say.</p>
       <Routes>
         <Route path='/about' element={<About />} />
       </Routes>
-     
-     
+
+
       <Footer />
     </div>
 
