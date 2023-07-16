@@ -5,6 +5,8 @@ import About from './About';
 import  Nav  from "./Nav";
 import Footer from "./Footer"
 import vector from "./assets/Vector.svg"
+import orange from "./assets/orange.svg"
+import india from "./assets/india.svg"
 function App() {
   return (
     <div className='container'>
@@ -18,7 +20,9 @@ function App() {
       </div>
 
       <div className='flag'>
-      <img src={vector} alt='vector' />
+      <img className="vector" src={vector} alt='vector'/>
+      <img className='orange' src={orange} alt='orange'/>
+      <img className='india' src={india} alt='indida'/>
       </div>
 
      </div>
