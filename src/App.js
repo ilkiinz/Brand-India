@@ -12,32 +12,58 @@ function App() {
     <div className='container'>
       <Nav />
   
-     <div className='flag-block'>
+      <div className='flag-block'>
 
-      <div className='get-touch'>
-       <p>Get involved in of the world’s fastest growing major economies</p>
-       <button>Get Touch</button>
+        <div className='get-touch'>
+          <p>Get involved in of the world’s fastest growing major economies</p>
+          <button>Get in Touch</button>
+        </div>
+
+        <div className='flag'>
+          <img className="vector" src={vector} alt='vector' />
+          <img className='orange' src={orange} alt='orange' />
+          <img className='india' src={india} alt='indida' />
+        </div>
+
       </div>
 
-      <div className='flag'>
-      <img className="vector" src={vector} alt='vector'/>
-      <img className='orange' src={orange} alt='orange'/>
-      <img className='india' src={india} alt='indida'/>
+
+
+      <div className="info">
+        <div className='inside-blocks'>
+          <div className="inside">
+            <h1>1,700+</h1>
+            <p>Over than 1700 companies using Brand India</p>
+          </div>
+          <div className="inside">
+            <h1>$1.4+ billion</h1>
+            <p>Helped clients generate over $1.4B funding </p>
+          </div>
+          <div className="inside">
+            <h1>40+ years</h1>
+            <p>With over 40 years of global business experience</p>
+          </div>
+        </div>
       </div>
 
-     </div>
 
+        <div className='community-container'>
 
+          <div className='community-block'>
 
+         <div className='community-text'>
+          <p className='meet-com'>Meet our fantastic community of loyal fans</p>
+          <p className='customers'>Don’t just take our word for it. See what our
+customers have to say.</p>
+         </div>
 
+        <div className='frame'>
+        
+        </div>
 
+            </div>
 
-
-
-
-
-
-
+        </div>
 
 
 
