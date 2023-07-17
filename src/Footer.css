@@ -21,10 +21,11 @@
 
 p {
     color: grey;
-    font-family: Euclid Circular B;
+    font-family:  "EuclidCircularBRegular";
     font-size: 11px;
     font-style: normal;
     line-height: 24px;
+    font-weight: 400;
 }
 
 .footer-block1 {
@@ -49,7 +50,7 @@ p {
 .about-brand {
     width: 301.158px;
     color: white;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: "EuclidCircularBMedium";
     font-size: 18px;
     font-style: normal;
     font-weight: 60;
@@ -65,7 +66,7 @@ p {
 .subscribe {
     margin-top: 40px;
     color: #FFF;
-    font-family: Euclid Circular B;
+    font-family: "EuclidCircularBSemiBold";
     font-size: 18px;
     font-style: normal;
     font-weight: 600;

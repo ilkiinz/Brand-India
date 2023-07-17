@@ -17,7 +17,7 @@ import director from "./assets/Director.svg";
 import comma from "./assets/doublecomma.svg";
 function App() {
   return (
-    <div className='container'>
+    <div className='qwerty'>
       <Nav />
 
       <div className='flag-block'>
@@ -88,12 +88,17 @@ function App() {
       </div>
       
       <div className='director-container'>
-        <div className='director-block'>
-       <img src={director} alt='director'/>
-        </div>
+        
+       <img className='director-block' src={director} alt='director'/>
+        
 
         <div className='direc-info'>
         <img src={comma} alt='comma'/>
+        <p className='direc-text'>“Before 2020, we sent a few email blasts with MailChimp 
+          here and there, but it wasn’t a focus. Once we shifted away
+           from retail-only sales to eCommerce sales,
+           driving customer awareness through email became a must-have,
+            and our ESP wasn’t cutting it.”</p>
         </div>
       </div>
 
