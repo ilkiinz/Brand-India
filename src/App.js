@@ -15,6 +15,10 @@ import slack from "./assets/Slack.svg";
 import stripe from "./assets/Stripe.svg";
 import director from "./assets/Director.svg";
 import comma from "./assets/doublecomma.svg";
+import office from "./assets/office.svg";
+import statistic from "./assets/statistics.svg";
+import audience from "./assets/audience.svg";
+import engage from "./assets/Engage.svg";
 function App() {
   return (
     <div className='qwerty'>
@@ -102,7 +106,30 @@ function App() {
         </div>
       </div>
 
+        
+      <div className='statistic-container'>
 
+        <div className='stat-block1'>
+          <div className='stat-text'>
+            <h4>Get helpful support, fast. Like really fast.</h4>
+            <p>Get 24/7 rockstar support, 365 days a year. We are always happy to help!</p>
+            <img src={statistic} alt='statistic' />
+          </div>
+
+          <img className="office" src={office} alt='office' />
+        </div>
+        
+        <div className='stat-block2'>
+        <img src={audience} alt='audience' />
+
+        <div className='audience-text'>
+         <img src={engage} alt='engage' />
+        </div>
+
+        </div>
+        
+
+        </div>
 
 
 
