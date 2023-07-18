@@ -124,6 +124,12 @@ function App() {
 
         <div className='audience-text'>
          <img src={engage} alt='engage' />
+         <h4>Grow your audience</h4>
+         <p>We provide companies of all sizes and stages of
+           growth with practical,
+           hands-on advice and specific
+           local contacts to assist with setting up 
+           and growing in the Indian market</p>
         </div>
 
         </div>
