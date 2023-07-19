@@ -5,6 +5,7 @@ function About() {
         <div>
             <p>Salam</p>
         </div>
+
     )
 }
 

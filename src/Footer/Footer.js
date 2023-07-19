@@ -1,6 +1,6 @@
 import React from "react";
 import "./Footer.css";
-import logo2 from "./assets/logo2.svg"
+import logo2 from "../assets/logo2.svg"
 import WebFont from 'webfontloader';
 
 
