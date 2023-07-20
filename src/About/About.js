@@ -2,7 +2,10 @@ import React from "react";
 import "./About.css";
 import Nav from "../Navbar/Nav";
 import Footer from "../Footer/Footer";
+import Info from "../Info/Info";
 import Rectangle from "../assets/Rectangle .svg";
+import Environment from "../assets/Environment.svg";
+import Environment1 from "../assets/Environment1.svg";
 function About() {
     return (
         <div className="wrap">
@@ -41,6 +44,15 @@ function About() {
                 </div>
 
             </div>
+
+            <div className="environment">
+                
+             <img src={Environment} alt="environment" />
+             <img src={Environment1} alt="environment" />
+            </div>
+            <Info />
+
+             
 
             <Footer />
         </div>

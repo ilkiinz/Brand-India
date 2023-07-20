@@ -89,3 +89,14 @@ font-style: normal;
 font-weight: 400;
 line-height: 150%;
 }
+
+.environment{
+ display: flex;
+ flex-direction: row;
+ gap: 56px;
+ padding: 96px 120px;
+width: 350px;
+height: 690px;
+}
+
+
