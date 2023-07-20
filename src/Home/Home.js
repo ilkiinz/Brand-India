@@ -1,8 +1,6 @@
 import React from 'react';
-
-
 import './Home.css';
-import  Nav  from "../Nav";
+import  Nav  from "../Navbar/Nav";
 import Footer from "../Footer/Footer";
 import vector from "../assets/Vector.svg";
 import orange from "../assets/orange.svg";
