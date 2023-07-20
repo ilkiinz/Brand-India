@@ -51,6 +51,7 @@ let Home = () =>{
               customers have to say.</p>
           </div>
 
+
           <div className='frame'>
             <img src={dropbox} alt='logo' />
             <img src={github} alt='logo' />

@@ -6,11 +6,16 @@ import Info from "../Info/Info";
 import Rectangle from "../assets/Rectangle .svg";
 import Environment from "../assets/Environment.svg";
 import Environment1 from "../assets/Environment1.svg";
+import dropbox from "../assets/dropbox_blue 1.svg";
+import github from "../assets/GitHub.svg";
+import google from "../assets/Google.svg";
+import hubspot from "../assets/HubSpot.svg";
+import slack from "../assets/Slack.svg";
+import stripe from "../assets/Stripe.svg";
 function About() {
     return (
         <div className="wrap">
             <Nav />
-         
             <div className="head-cont">
                 <h3 className="text-orange">Empowering UK </h3>
                 <h3 className="text-black">companies in India</h3>
@@ -20,7 +25,6 @@ function About() {
                     market via our long-established
                     network of Indian contacts</h4>
             </div>
-              
 
             <div className="skills-cont">
                 <p className="skills-head">What we can do</p>
@@ -42,21 +46,30 @@ function About() {
                     <p>The retainer and commission can both be paid in a mixture of cash
                         or in an equity share.</p>
                 </div>
-
             </div>
 
             <div className="environment">
-                
-             <img src={Environment} alt="environment" />
-             <img src={Environment1} alt="environment" />
+
+                <img src={Environment} alt="environment" />
+                <img src={Environment1} alt="environment" />
             </div>
             <Info />
-
-             
-
+            <div className="community-cont">
+                <h4>These great companies have <br /> opted to trust us</h4>
+                <div>
+                    <div className='companies'>
+                        <img src={dropbox} alt='logo' />
+                        <img src={github} alt='logo' />
+                        <img src={google} alt='logo' />
+                        <img src={hubspot} alt='logo' />
+                        <img src={slack} alt='logo' />
+                        <img src={stripe} alt='logo' />
+                    </div>
+                </div>
+            </div>
             <Footer />
         </div>
-    )
-}
+    );
+};
 
 export default About;
