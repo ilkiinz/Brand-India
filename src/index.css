@@ -6,6 +6,7 @@
 }
 
 @font-face {
+  
   font-family: "EuclidCircularBRegular";
   src: local("EuclidCircularBRegular"),
     url("./fonts/Euclid-CircularB-Regular.ttf") format("truetype");
