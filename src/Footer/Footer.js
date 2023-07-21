@@ -7,6 +7,11 @@ import logo2 from "../assets/logo2.svg"
 function Footer() {
     return (
         <div className="footer">
+            
+            <div className="main-footer-yuxari">
+            </div>
+            <div className="main-footer-yuxari">
+            </div>
 
             <div className="main-footer-left">
                 <div className="footer-block1">

@@ -125,3 +125,61 @@
     gap: 92px;
     padding-bottom: 96px;
 }
+
+
+
+/* Ekstra küçük ekranlar */
+@media (max-width: 480px) {
+    .head-cont {
+      padding-top: 40px;
+    }
+    .head-cont img {
+      height: auto;
+      max-width: 100%;
+    }
+    .head-cont h4 {
+      font-size: 28px;
+      width: 100%;
+      padding: 24px;
+    }
+  }
+  
+  /* Küçük ekranlar */
+  @media (min-width: 481px) and (max-width: 768px) {
+    .head-cont {
+      padding-top: 60px;
+    }
+    .head-cont img {
+      height: auto;
+      max-width: 100%;
+    }
+    .head-cont h4 {
+      font-size: 34px;
+      width: 100%;
+      padding: 40px;
+    }
+    .skills-cont {
+      gap: 24px;
+    }
+    .environment {
+      flex-direction: column;
+      gap: 24px;
+      padding: 48px 20px;
+      width: 100%;
+      height: auto;
+    }
+    .community-cont h4 {
+      font-size: 28px;
+      padding-top: 48px;
+    }
+    .companies {
+      flex-wrap: wrap;
+    }
+    .community-cont {
+      gap: 40px;
+    }
+    .environment {
+      gap: 20px;
+    }
+  }
+  

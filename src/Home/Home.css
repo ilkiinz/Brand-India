@@ -1,3 +1,9 @@
+.qwerty{
+  display: flex;
+  flex-direction: column;
+}
+
+
 .get-touch {
   margin-top: 89px;
   float: left;
@@ -18,8 +24,9 @@
 }
 
 .vector {
-  position: relative;
-  width: 100%;
+  position: absolute;
+  right: 2px;
+  top: 10px;
   height: 559px;
   flex-shrink: 0;
 }
