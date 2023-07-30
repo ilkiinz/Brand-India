@@ -100,3 +100,48 @@ input {
     position: relative;
     margin-top: 48px;
 }
+
+
+/* Normal stil tanımlamaları burada */
+
+/* Responsive Düzenleme */
+@media only screen and (max-width: 790px) {
+    .footer {
+      flex-direction: column;
+      height: auto;
+      padding: 40px 20px;
+    }
+  
+    .footer-block1,
+    .footer-block2,
+    .footer-block3 {
+      float: none;
+      width: auto;
+      height: auto;
+      margin: 0;
+    }
+  
+    .about-brand {
+      padding-top: 20px;
+    }
+  
+    .main-footer-right {
+      margin-left: 0;
+      margin-top: 20px;
+    }
+  
+    .subscribe {
+      text-align: center;
+    }
+  
+    input {
+      width: 100%;
+    }
+  
+    .input-container button {
+      position: relative;
+      margin-top: 20px;
+      right: initial;
+    }
+  }
+  

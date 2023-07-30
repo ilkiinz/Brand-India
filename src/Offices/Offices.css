@@ -1,0 +1,46 @@
+.leeds-cont{
+display: flex;
+flex-direction: row;
+gap: 108px;
+padding-left: 124px;
+padding-bottom: 96px;
+padding-right: 120px;
+}
+
+
+.leeds-text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.text-b{
+    color: #1D1D1B;
+font-family: "EuclidCircularBSemiBold";
+font-size: 46px;
+font-style: normal;
+font-weight: 600;
+line-height: 120%; 
+padding-top: 179px;
+}
+
+.text-o{
+color: var(--orange, #EC671B);
+font-family: "EuclidCircularBSemiBold";
+font-size: 46px;
+font-style: normal;
+font-weight: 600;
+line-height: 120%;
+padding-bottom: 56px;
+}
+
+.leeds-text p{
+    color: #3C3C3C;
+    text-align: center;
+    font-family: "EuclidCircularBMedium";
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    padding-bottom: 179px;
+}

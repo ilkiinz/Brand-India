@@ -14,3 +14,21 @@
   line-height: normal;
   margin-right: 30px;
   }
+  /* Normal stil tanımlamaları burada */
+
+/* Responsive Düzenleme */
+@media only screen and (max-width: 790px) {
+  .navbar {
+    margin: 0px;
+    padding-left: 20px !important;
+    padding-top: 20px !important;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .link {
+
+    margin-right: 35px;
+    margin-bottom: 10px;
+  }
+}
