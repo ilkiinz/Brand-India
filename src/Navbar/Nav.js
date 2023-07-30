@@ -13,7 +13,7 @@ function Nav() {
 
                     <Link className="link">Our People</Link>
 
-                    <Link className="link">Offices</Link>
+                    <Link to={'/offices'} className="link">Offices</Link>
                 </div>
             </nav>
         </div>
