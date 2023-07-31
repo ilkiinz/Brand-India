@@ -11,7 +11,7 @@ function Nav() {
                 <div>
                     <Link to={'/about'} className="link">About us</Link>
 
-                    <Link className="link">Our People</Link>
+                    <Link to={'/our people'} className="link">Our People</Link>
 
                     <Link to={'/offices'} className="link">Offices</Link>
                 </div>

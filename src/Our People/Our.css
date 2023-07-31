@@ -1,0 +1,86 @@
+.family-cont{
+display: flex;
+flex-direction: column;
+text-align: center;
+align-items: center;
+gap: 64px;
+}
+
+.family-head{
+display: flex;
+flex-direction: row;
+gap: 16px;
+text-align: center;
+}
+
+.family-head h4{
+font-family: "EuclidCircularBSemiBold";
+font-size: 58px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+.green{
+padding-left: 5px;
+color: green;
+}
+
+.meet-cont{
+display: flex;
+flex-direction: row;
+gap: 140px;
+padding-bottom: 96px;
+}
+
+.meet-cont img{
+    padding-left: 120px;
+}
+
+.read{
+display: flex;
+width: 100%;
+flex-direction: column;
+padding-top: 65px;
+gap: 32px;
+}
+
+.read p{
+color: #1D1D1B;
+font-family: "EuclidCircularBMedium";
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+.read h5{
+color: #1D1D1B;
+font-family: "EuclidCircularBMedium";
+font-size: 27px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+.read button{
+ display: flex;
+padding: 20px 15px;
+margin-left: 25px;
+width: 250px;
+flex-direction: column;
+align-items: center;
+gap: 10px;
+border-radius: 24px;
+border: 2px solid #cfcaca;
+}
+
+.read button p{
+text-align: center;
+color: #060606;
+font-family: "EuclidCircularBMedium";
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
