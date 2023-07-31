@@ -3,6 +3,7 @@ import "./Our.css";
 import Nav from "../Navbar/Nav";
 import Footer from "../Footer/Footer";
 import Friends from "../assets/Friends.svg";
+import Men from "../assets/Men.svg"
 
 function Our(){
     return(
@@ -29,6 +30,20 @@ function Our(){
                     <button><p>Read More</p></button>  
                 </div>
                 </div>
+
+                <div className="meet-cont1">
+                   
+
+                <div className="read1">
+                    <h5>Ben Rankin</h5>
+                    <p>Ben is an experienced business 
+                        development <br/> executive with a demonstrated
+                         history of working in the cyber security market.</p>
+                    <button><p>Read More</p></button>  
+                </div>
+                <img src={Men} alt="men"/>
+                </div>
+
 
         </div>
 
