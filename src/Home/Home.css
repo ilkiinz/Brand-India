@@ -296,3 +296,78 @@
   line-height: 150%;
 }
 
+
+/* Mobile (max-width: 767px) */
+@media only screen and (max-width: 767px) {
+  .flag-block {
+    padding-left: 20px;
+    margin-bottom: 0;
+  }
+
+  .flag {
+    padding-left: 0;
+  }
+
+  .director-container {
+    padding: 40px 20px;
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .stat-block1 {
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+  }
+
+  .stat-block2 {
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+  }
+}
+
+/* Tablet (768px ile 1023px arası) */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .flag-block {
+    padding-left: 40px;
+    margin-bottom: 320px;
+    
+  }
+
+  .flag {
+    padding-left: 0;
+  }
+
+  .director-container {
+    padding: 60px 40px;
+    gap: 80px;
+  }
+
+  .stat-block1 {
+    gap: 80px;
+  }
+
+  .stat-block2 {
+    gap: 80px;
+  }
+
+  .frame{display: flex;
+    flex-wrap: wrap;
+  }
+
+
+.frame {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 86px;
+  flex-wrap: wrap; 
+}
+
+.frame .content {
+  flex-basis: 300px;
+  
+}
+
+}

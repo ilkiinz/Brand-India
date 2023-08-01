@@ -107,3 +107,60 @@ background: #010100;
 .send button:hover{
     background-color: darkblue;
 }
+
+/* Diğer stil tanımlamaları burada */
+
+/* Mobil ve Tablet (max-width: 767px) */
+@media only screen and (max-width: 767px) {
+    .contact-cont {
+      width: 100%; /* Genişliği tam ekran yap */
+      padding-left: 20px; /* Sol padding değerini küçült */
+      padding-right: 20px; /* Sağ padding değerini küçült */
+    }
+  
+    .contact-head {
+      flex-direction: column; /* Başlığı dikey olarak sırala */
+      align-items: center; /* Başlığı ortala */
+      text-align: center; /* Başlık metnini ortala */
+      gap: 10px; /* Gap değerini küçült */
+    }
+  
+    .contact-head h4 {
+      font-size: 36px; /* Başlık boyutunu küçült */
+    }
+  
+    .form-cont {
+      width: 100%; /* Genişliği tam ekran yap */
+      padding-left: 20px; /* Sol padding değerini küçült */
+      padding-right: 20px; /* Sağ padding değerini küçült */
+    }
+  
+    .form-head {
+      padding-left: 0; /* Sol padding'i sıfırla */
+      text-align: center; /* Başlık metnini ortala */
+    }
+  
+    .form-head p {
+      font-size: 28px; /* Başlık metni boyutunu küçült */
+    }
+  
+    .head-btn button {
+      margin-left: 0; /* Sol kenar boşluğu sıfırla */
+      margin-bottom: 10px; /* Alt kenar boşluğunu küçült */
+    }
+  
+    .form-main input {
+      padding: 20px; /* Input içeriğinin padding değerini küçült */
+    }
+  
+    .form-foot p {
+      margin-left: 0; /* Sol kenar boşluğu sıfırla */
+      font-size: 28px; /* Metin boyutunu küçült */
+    }
+  
+    .send button {
+      padding: 12px 20px; /* Buton içeriğinin padding değerini küçült */
+      margin-left: 0; /* Sol kenar boşluğu sıfırla */
+    }
+  }
+  

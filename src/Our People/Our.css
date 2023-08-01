@@ -157,3 +157,52 @@ padding-top: 10px;
     line-height: normal;
     padding-top: 10px;
     }
+
+
+/* Mobil ve Tablet (max-width: 767px) */
+@media only screen and (max-width: 767px) {
+  .family-cont {
+    padding-top: 40px; 
+    gap: 32px; 
+  }
+
+  .family-head {
+    flex-direction: column; 
+    gap: 8px;
+  }
+
+  .family-head h4 {
+    font-size: 36px; /* Başlık boyutunu küçült */
+  }
+
+  .meet-cont,
+  .meet-cont1 {
+    flex-direction: column; 
+    gap: 20px; 
+    padding-right: 20px;
+    padding-left: 20px; 
+  }
+
+  .meet-cont img,
+  .meet-cont1 img {
+    padding-left: 0; 
+    max-width: 100%; 
+    height: auto; 
+  }
+
+  .read,
+  .read1 {
+    gap: 16px; 
+  }
+
+  .read button,
+  .read1 button {
+    width: 100%; 
+    margin-left: 0; 
+  }
+
+  .read button p,
+  .read1 button p {
+    font-size: 20px; 
+  }
+}

@@ -155,3 +155,69 @@ align-items: center;
 border-radius: 24px;
 background: #cfcaca;;
 }
+
+
+/* Diğer stil tanımlamaları burada */
+
+/* Mobil ve Tablet (max-width: 767px) */
+@media only screen and (max-width: 767px) {
+    .leeds-cont {
+      flex-direction: column; /* İçeriği dikey olarak sırala */
+      gap: 20px; /* Gap değerini küçült */
+      padding-left: 20px; /* Sol padding değerini küçült */
+      padding-right: 20px; /* Sağ padding değerini küçült */
+    }
+  
+    .leeds-text {
+      align-items: center; /* Metin içeriğini ortala */
+      text-align: center; /* Metin içeriğini ortala */
+    }
+  
+    .text-b,
+    .text-o {
+      font-size: 36px; /* Metin boyutunu küçült */
+      padding-top: 20px; /* Üst padding değerini küçült */
+      padding-bottom: 20px; /* Alt padding değerini küçült */
+    }
+  
+    .leeds-text p {
+      padding-bottom: 20px; /* Alt padding değerini küçült */
+    }
+  
+    .office-head h4 {
+      font-size: 32px; /* Başlık boyutunu küçült */
+    }
+  
+    .office-btns {
+      align-items: center; /* Butonları ortala */
+      gap: 20px; /* Gap değerini küçült */
+      padding-left: 20px; /* Sol padding değerini küçült */
+      padding-right: 20px; /* Sağ padding değerini küçült */
+    }
+  
+    .btns,
+    .btns1 {
+      flex-direction: column; /* Butonları dikey olarak sırala */
+      gap: 20px; /* Gap değerini küçült */
+    }
+  
+    .first,
+    .second,
+    .third,
+    .fourth {
+      gap: 20px; /* Gap değerini küçült */
+    }
+  
+    .adress-cont {
+      flex-direction: column; /* Adres içeriğini dikey olarak sırala */
+      gap: 20px; /* Gap değerini küçült */
+      padding-left: 20px; /* Sol padding değerini küçült */
+      padding-right: 20px; /* Sağ padding değerini küçült */
+    }
+  
+    .adress,
+    .adress1 {
+      padding: 20px 40px; /* İçerik padding değerini küçült */
+    }
+  }
+  

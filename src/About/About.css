@@ -183,3 +183,42 @@
     }
   }
   
+  /* Diğer stil tanımlamaları burada */
+
+/* Tablet (768px ile 1023px arası) */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .head-cont img {
+    width: 100%; /* Resmi tam ekran genişliğinde göster */
+    height: auto; /* Yüksekliği orantılı olarak ayarla */
+  }
+
+  .head-cont h4 {
+    width: 100%; /* Metni tam ekran genişliğinde göster */
+  }
+
+  .skills-cont {
+    padding: 40px 20px; /* Padding değerlerini küçült */
+  }
+
+  .environment {
+    padding: 40px 20px; /* Padding değerlerini küçült */
+    gap: 20px; /* Gap değerini küçült */
+    height: auto; /* Yüksekliği otomatik olarak ayarla */
+  }
+
+  .environment .community-cont {
+    gap: 32px; /* Gap değerini küçült */
+  }
+
+  .community-cont h4 {
+    font-size: 36px; /* Metin boyutunu küçült */
+  }
+
+  .companies {
+    gap: 40px; /* Gap değerini küçült */
+  }
+
+  .skill-texts p {
+    font-size: 16px; /* Metin boyutunu küçült */
+  }
+}
