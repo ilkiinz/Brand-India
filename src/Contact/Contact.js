@@ -2,8 +2,27 @@ import React from 'react';
 import './Contact.css';
 import  Nav  from "../Navbar/Nav";
 import Footer from "../Footer/Footer";
+import { useState } from 'react';
+
+
 
 function Contact() {
+    const [selectedButton, setSelectedButton] = useState('');
+
+    const handleButtonClick = (color) => {
+      setSelectedButton(color);
+    };
+
+    const [selectedBtn, setSelectedBtn] = useState('');
+
+
+    const handleButton = (color) => {
+        setSelectedBtn(color);
+      };
+  
+
+
+
     return(
            <div>
             <Nav />
@@ -18,16 +37,17 @@ function Contact() {
                     <div className='form-head'>
                         <p>My project is...</p>
                         <div className='head-btn'>
-                            <button>Service</button>
-                            <button>Industrial</button>
-                            <button>IT</button>
-                            <button>Finance</button>
+                            <button onClick={() => handleButtonClick('teal')}  style={{ backgroundColor: selectedButton === 'teal' ? 'teal' : '' }}>Service</button>
+                            <button onClick={() => handleButtonClick('orange')}  style={{ backgroundColor: selectedButton === 'orange' ? 'orange' : '' }}>Industrial</button>
+                            <button onClick={() => handleButtonClick('green')}  style={{ backgroundColor: selectedButton === 'green' ? 'green' : '' }}>IT</button>
+                            <button onClick={() => handleButtonClick('blue')}  style={{ backgroundColor: selectedButton === 'blue' ? 'blue' : '' }}>Finance</button>
                         </div>
                         <div className='head-btn'>
-                            <button>Startup</button>
-                            <button>Other</button>
+                            <button onClick={() => handleButtonClick('red')}  style={{ backgroundColor: selectedButton === 'red' ? 'red' : '' }}>Startup</button>
+                            <button onClick={() => handleButtonClick('yellow')}  style={{ backgroundColor: selectedButton === 'yellow' ? 'yellow' : '' }}>Other</button>
                         </div>
                     </div>
+
 
                     <div className='form-main'>
                     <input type='text' placeholder=" Your Name"/>
@@ -43,10 +63,10 @@ function Contact() {
                       <p>Project Budget</p>
                     
                     <div className='head-btn'>
-                            <button>10-20K</button>
-                            <button>20-50K</button>
-                            <button>50-100K</button>
-                            <button>Other</button>
+                            <button onClick={() => handleButton('purple')}  style={{ backgroundColor: selectedBtn === 'purple' ? 'purple' : '' }}>10-20K</button>
+                            <button onClick={() => handleButton('grey')}  style={{ backgroundColor: selectedBtn === 'grey' ? 'grey' : '' }}>20-50K</button>
+                            <button onClick={() => handleButton('brown')}  style={{ backgroundColor: selectedBtn === 'brown' ? 'brown' : '' }}>50-100K</button>
+                            <button onClick={() => handleButton('pink')}  style={{ backgroundColor: selectedBtn === 'pink' ? 'pink' : '' }}>Other</button>
                         </div>
 
                         </div>

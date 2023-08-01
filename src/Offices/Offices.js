@@ -5,8 +5,13 @@ import Footer from "../Footer/Footer";
 import Leeds from "../assets/Leeds.svg";
 import Plus from "../assets/Plus.svg";
 function Offices() {
+  
+   
  return(
+    
+    
      <div className="wrap">
+      
          <Nav />
          <div className="head-cont">
              <h3 className="text-orange">Where is the Brand India</h3>
@@ -33,23 +38,24 @@ function Offices() {
                  <div className="btns">
                      <div className="first">
                          <h4>London</h4>
-                         <button> <img src={Plus} alt="plus" /></button>
+                         <button className="button"> <img src={Plus} alt="plus" /></button>
                      </div>
+
                      <div className="second">
                          <h4>Cardiff</h4>
-                         <button> <img src={Plus} alt="plus" /></button>
+                         <button className="button"> <img src={Plus} alt="plus" /></button>
                      </div>
                  </div>
 
                  <div className="btns1">
                      <div className="third">
                          <h4>Edinburgh</h4>
-                         <button> <img src={Plus} alt="plus" /></button>
+                         <button className="button"> <img src={Plus} alt="plus" /></button>
                      </div>
 
                      <div className="fourth">
                          <h4>West Midlands</h4>
-                         <button> <img src={Plus} alt="plus" /></button>
+                         <button className="button"> <img src={Plus} alt="plus" /></button>
                      </div>
                  </div>
              </div>
