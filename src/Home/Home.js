@@ -27,6 +27,7 @@ let Home = () =>{
       <div className='flag-block'>
 
         <div className='get-touch'>
+         
           <p>Get involved in of the world’s fastest growing major economies</p>
           <button>Get in Touch</button>
         </div>

@@ -77,6 +77,10 @@ border-radius: 24px;
 border: 2px solid #cfcaca;
 }
 
+.read button:hover{
+    background-color: thistle;
+}
+
 .read button p{
 text-align: center;
 color: #060606;
@@ -139,6 +143,10 @@ padding-top: 10px;
     border: 2px solid #cfcaca;
     }
     
+  .read1 button:hover{
+    background-color: thistle;
+  }
+
     .read1 button p{
     text-align: center;
     color: #060606;

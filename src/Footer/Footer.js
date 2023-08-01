@@ -1,6 +1,8 @@
 import React from "react";
 import "./Footer.css";
+import { Link } from 'react-router-dom';
 import logo2 from "../assets/logo2.svg"
+
 
 
 
@@ -25,7 +27,7 @@ function Footer() {
                     <p className="first-word">Resource</p>
                     <p>Privarcy Policy</p>
                     <p>Terms and Condition</p>
-                    <p>Contact Us</p>
+                    <Link to={'/Contact'} className="linkf">Contact us</Link>
                 </div>
 
                 <div className="footer-block3">

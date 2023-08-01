@@ -15,7 +15,6 @@
     font-style: normal;
     font-weight: 600;
     line-height: 150%;
-    /* 27px */
     text-transform: capitalize;
 }
 
@@ -41,6 +40,17 @@ p {
     height: 150px;
     margin-left: 65px;
 }
+
+.linkf{
+  color: grey;
+  font-family:  "EuclidCircularBRegular";
+  font-size: 11px;
+  font-style: normal;
+  line-height: 24px;
+  font-weight: 400;
+  text-decoration: none;
+}
+
 
 .footer-block3 {
     width: 200px;
