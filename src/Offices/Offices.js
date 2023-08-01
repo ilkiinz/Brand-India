@@ -6,6 +6,22 @@ import Leeds from "../assets/Leeds.svg";
 import Plus from "../assets/Plus.svg";
 function Offices() {
   
+    const showList = document.querySelector('.button'),
+    text = document.querySelector('.closed-text'),
+    storage = localStorage.getItem('storage');
+if (storage === 'true') {
+    text.style.display = 'flex';
+} else {
+    text.style.display = 'none';}
+showList.addEventListener('click', (event) => {
+    if (text.style.display === 'none') {
+        text.style.display = 'flex';
+        localStorage.setItem('storage', 'true');
+    } else {
+        text.style.display = 'none';
+        localStorage.setItem('storage', 'false');
+    } });
+
    
  return(
     
@@ -39,6 +55,7 @@ function Offices() {
                      <div className="first">
                          <h4>London</h4>
                          <button className="button"> <img src={Plus} alt="plus" /></button>
+                         <p className="closed-text">1 Lochrin Square, 92-98 Fountainbridge Edinburgh, EH3 9QA</p>
                      </div>
 
                      <div className="second">
