@@ -42,26 +42,28 @@ function Offices() {
 
              <div className="office-btns">
                  <div className="btns">
-                     <div className="first">
-                         <h4>London</h4>
-                         <button className="button" onClick={() => handleButtonClick('London')}> <img src={Plus} alt="plus" /></button>
-                         {selectedButton === 'London' && <p className="closed-text">1 Lochrin Square, 92-98 Fountainbridge Edinburgh, EH3 9QA</p>}
+                     <div className="first" style={{padding: selectedButton === 'London' ? 28 : 14}}>
+                        <div>
+                             <h4>London</h4>
+                             <button className="button" onClick={() => handleButtonClick('London')}> <img className="plusImage" src={Plus} alt="plus" /></button>
+                        </div> 
+                         {selectedButton === 'London' ? <p className="closed-text">1 Lochrin Square, 92-98 Fountainbridge Edinburgh, EH3 9QA</p> : null}
                      </div>
 
-                     <div className="second">
-                         <h4>Cardiff</h4>
+                     <div className="second"  style={{height:103}}>
+                         <h4 style={{fontSize: 32}}>Cardiff</h4>
                          <button className="button"> <img src={Plus} alt="plus" /></button>
                      </div>
                  </div>
 
                  <div className="btns1">
-                     <div className="third">
-                         <h4>Edinburgh</h4>
+                     <div className="third" style={{height:103}}>
+                         <h4 style={{fontSize: 32}}>Edinburgh</h4>
                          <button className="button"> <img src={Plus} alt="plus" /></button>
                      </div>
 
-                     <div className="fourth">
-                         <h4>West Midlands</h4>
+                     <div className="fourth" style={{height:103}}>
+                         <h4 style={{fontSize: 32}}>West Midlands</h4>
                          <button className="button"> <img src={Plus} alt="plus" /></button>
                      </div>
                  </div>

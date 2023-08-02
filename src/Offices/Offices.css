@@ -89,21 +89,47 @@ button{
     border: none;
 }
 
-.first{
-display: flex;
-padding: 28px;
-align-items: center;
-gap: 371px;
-border-radius: 24px;
-background: #cfcaca;
-width: 100%;
+.first {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 24px;
+  background-color: #cfcaca;
+  width: 100%;
+  padding: 28px;
+}
+
+.first div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+.first h4{
+    color: #1D1D1B;
+    font-family: "EuclidCircularBMedium";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.button{
+  background-color: #cfcaca;
+}
+.closed-text {
+  color: #1D1D1B;
+  font-family: "EuclidCircularBMedium";
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
 }
 
 .second{
  display: flex;
 padding: 28px;
 align-items: center;
-gap: 371px;
+  justify-content: space-between;
 border-radius: 24px;
 background: #cfcaca;
 width: 100%;
@@ -113,7 +139,7 @@ width: 100%;
 display: flex;
 padding: 14px;
 align-items: center;
-gap: 367px;
+  justify-content: space-between;
 border-radius: 24px;
 background: #cfcaca;
 width: 100%;
@@ -123,7 +149,7 @@ width: 100%;
 display: flex;
 padding: 14px;
 align-items: center;
-gap: 367px;
+  justify-content: space-between;
 border-radius: 24px;
 background: #cfcaca;
 width: 100%;

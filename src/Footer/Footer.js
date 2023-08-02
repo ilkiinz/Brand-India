@@ -31,7 +31,7 @@ function Footer() {
                 </div>
 
                 <div className="footer-block3">
-                    <p className="about-brand">Brand Spain Limited 2022</p>
+                    <p className="about-brand" style={{cursor:"default"}}>Brand Spain Limited 2022</p>
                 </div>
 
             </div>
