@@ -5,7 +5,7 @@ import Footer from "../Footer/Footer";
 import Info from "../Info/Info";
 import vector from "../assets/Vector.svg";
 import orange from "../assets/orange.svg";
-import india from "../assets/india.svg";
+import spain from "../assets/spain.jpg";
 import dropbox from "../assets/dropbox_blue 1.svg";
 import github from "../assets/GitHub.svg";
 import google from "../assets/Google.svg";
@@ -35,7 +35,7 @@ let Home = () =>{
         <div className='flag'>
           <img className="vector" src={vector} alt='vector' />
           <img className='orange' src={orange} alt='orange' />
-          <img className='india' src={india} alt='indida' />
+          <img className='spain' src={spain} alt='spain' />
         </div>
 
       </div>

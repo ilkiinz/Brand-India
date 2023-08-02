@@ -44,9 +44,10 @@
   flex-shrink: 0;
 }
 
-.india {
+.spain {
   position: absolute;
-  right: 135px;
+  border-radius: 24px;
+  right: 140px;
   top: 75px;
   width: 360.328px;
   height: 424.152px;
