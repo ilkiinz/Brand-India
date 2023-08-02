@@ -13,7 +13,7 @@ function Our(){
             <div className="family-cont">
                 <div className="family-head">
                     <h4>Meet the </h4>
-                    <h4 className="green">Brand India Family</h4>
+                    <h4 className="green">Brand Spain Family</h4>
                 </div>
 
                 <div className="meet-cont">

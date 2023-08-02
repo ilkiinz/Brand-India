@@ -1,19 +1,26 @@
 .navbar{
-    display: flex;
-    flex-direction: row;
-    padding-left: 120px !important;
-    padding-top: 40px !important; 
-  }
+display: flex;
+flex-direction: row;
+padding-left: 120px !important;
+padding-top: 40px !important; 
+}
   
-  .link{
-    color: #0B0B0B;
-  font-family: "EuclidCircularBMedium";
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: normal;
-  margin-right: 30px;
-  }
+.link{
+color: #0B0B0B;
+font-family: "EuclidCircularBMedium";
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+margin-right: 30px;
+}
+
+.logo{
+  width: 220px;
+  height: 142px;
+}
+
+
   /* Normal stil tanımlamaları burada */
 
 /* Responsive Düzenleme */
@@ -31,7 +38,7 @@ margin-right: 35px;
 margin-bottom: 10px;
   }
 
-  .logo{
+ .logo{
     padding-bottom: 30px;
   }
 }

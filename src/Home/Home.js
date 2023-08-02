@@ -112,7 +112,7 @@ let Home = () =>{
            growth with practical,
            hands-on advice and specific
            local contacts to assist with setting up 
-           and growing in the Indian market</p>
+           and growing in the Spain market</p>
         </div>
 
         </div>

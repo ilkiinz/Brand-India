@@ -20,9 +20,9 @@ function Offices() {
       
          <Nav />
          <div className="head-cont">
-             <h3 className="text-orange">Where is the Brand India</h3>
+             <h3 className="text-orange">Where is the Brand Spain</h3>
              <h3 className="text-black">office located?</h3>
-             <p>Brand India Limited is a company registered in<br /> England and Wales</p>
+             <p>Brand Spain Limited is a company registered in<br /> England and Wales</p>
          </div>
             
          <div className="leeds-cont">
@@ -69,7 +69,7 @@ function Offices() {
 
              <div>
              <div className="office-head">
-                 <h4>India Office</h4>
+                 <h4>Spain Office</h4>
              </div>
               
              <div className="adress-cont">

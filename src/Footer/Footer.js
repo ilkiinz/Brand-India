@@ -1,7 +1,7 @@
 import React from "react";
 import "./Footer.css";
 import { Link } from 'react-router-dom';
-import logo2 from "../assets/logo2.svg"
+import Logo from "../assets/Logo.svg";
 
 
 
@@ -31,13 +31,13 @@ function Footer() {
                 </div>
 
                 <div className="footer-block3">
-                    <p className="about-brand">Brand India Limited 2022</p>
+                    <p className="about-brand">Brand Spain Limited 2022</p>
                 </div>
 
             </div>
 
             <div className="main-footer-right">
-                <img src={logo2} alt="logo" />
+                <img className="foot-logo" src={Logo} alt="logo" />
                 <p className="subscribe">Subscribe to our Newsletter</p>
 
                 <div className="input-container">

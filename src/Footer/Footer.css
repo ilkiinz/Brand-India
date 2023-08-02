@@ -111,6 +111,11 @@ input {
     margin-top: 48px;
 }
 
+.foot-logo{
+  width: 160px;
+  height: 60px;
+}
+
 
 /* Responsive Düzenleme */
 @media only screen and (max-width: 990px) {
