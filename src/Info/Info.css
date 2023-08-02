@@ -45,7 +45,7 @@
   /* Normal stil tanımlamaları burada */
 
 /* First Mobile (max-width: 768px) */
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 808px) {
   .info {
     padding: 40px 20px;
     flex-direction: column;
